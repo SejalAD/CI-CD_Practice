@@ -1,0 +1,25 @@
+{
+  "name": "ci-cd_practice",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SejalAD/CI-CD_Practice#readme",
+  "bugs": {
+    "url": "https://github.com/SejalAD/CI-CD_Practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SejalAD/CI-CD_Practice.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14"
+  }
+}
